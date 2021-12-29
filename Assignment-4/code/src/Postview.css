@@ -1,5 +1,12 @@
+*{margin:0px;padding:0px;}
 .site-container{
   text-align: center;
+  margin-top:10px;
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+
 }
 html {
   font-size: 14px;
@@ -8,4 +15,19 @@ body {
   line-height: 1.5;
   color: black;
   margin:0;
-} 
+}  
+
+.header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:5px;
+  width:60%;
+  border-top:5px solid green;
+  border-bottom:5px solid green;
+}
+.camera-image{
+  padding-top: 5px;
+  height:30px;
+}
+  
